@@ -13,7 +13,7 @@ This repository contains all the code and data needed to reproduce the results o
   - Brainstem_Subsetted_Genes.txt-Brainstem RNAseq data for genes in common with HT-qPCR data from female SHR and WKY.
   - Male_Norm_AllData-Negddct data from HT-qPCR across 5 organs in the male SHR and WKY, from Anderson et al., 2017.
 
-### DynamicNetworkID—Folder containing all functions necessary to run the HMF method on a given dataset. All functions in this folder are accessed from the calling script Multiorgan_HMF.
+### Functions—Folder containing all functions necessary to run the HMF method on a given dataset. All functions in this folder are accessed from the calling script Multiorgan_HMF.
   - Hartley_functions.R-This function performs linear interpolation between data points and implements the continuous Hartley transform.
   - Master.R-This function performs system identification to infer the connectivity and dynamics of a linear network model (Anderson et al., 2017).
   - m-value_functions.R-This function selects a set of values for M = max(m).
