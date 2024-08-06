@@ -6,7 +6,7 @@ This repository contains all the code and data needed to reproduce the results o
 ### Code-Folder containing all code necessary to reproduce the results of the paper.
   - Multiorgan_HMF.R-Calling script to load the female expression data and run the HMF method. Loads the multiorgan data to run the HMF method on the SHR and WKY data separately. Also loads and integrates brainstem RNAseq data with common genes to the multiorgan RNAseq data. This data is also run through the HMF method on the SHR and WKY data separately. 
   - Multiorgan_HMF_Male-Female.R-Calling script, highly similar to 'Multiorgan_HMF.R' except it integrates Male SHR and WKY data from Anderson et al., 2017 to allow for a male-female comparison.
-  - negddct_expression_heatmaps.R-Calling script to load the multiorgan negddct data and visualize the data in heatmaps with annotations shown. 
+  - Negddct_expression_heatmaps.R-Calling script to load the multiorgan negddct data and visualize the data in heatmaps with annotations shown. 
 
 ### Data-Folder containing all data necessary to reproduce the results of the paper.
   - Organ_Norm_AllData.txt-Negddct data from HT-qPCR across 5 organs in the female SHR and WKY.
