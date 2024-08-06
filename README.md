@@ -16,8 +16,8 @@ This repository contains all the code and data needed to reproduce the results o
 ### Functions—Folder containing all functions necessary to run the HMF method on a given dataset. All functions in this folder are accessed from the calling script Multiorgan_HMF.
   - Hartley_functions.R-This function performs linear interpolation between data points and implements the continuous Hartley transform.
   - Master.R-This function performs system identification to infer the connectivity and dynamics of a linear network model (Anderson et al., 2017).
-  - m-value_functions.R-This function selects a set of values for M = max(m).
-  - plotting_functions.R-This function plots simulation data.
-  - regression_functions.R-This function establishes the Y vector for a specific set of m-values (Equation 11, Anderson et al., 2017).
-  - scaling_functions.R-This function normalizes input data to the range (0,1).
-  - simulation_functions.R-This function extracts the initial conditions for the dynamic variables corresponding to measurements.
+  - M-value_functions.R-This function selects a set of values for M = max(m).
+  - Plotting_functions.R-This function plots simulation data.
+  - Regression_functions.R-This function establishes the Y vector for a specific set of m-values (Equation 11, Anderson et al., 2017).
+  - Scaling_functions.R-This function normalizes input data to the range (0,1).
+  - Simulation_functions.R-This function extracts the initial conditions for the dynamic variables corresponding to measurements.
